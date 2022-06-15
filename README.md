@@ -12,10 +12,10 @@ GitHub リポジトリを初期化する
 github に登録  
 新しいレポジトリの作成  
   
-`git init
-git remote add origin git@github.com:登録名/レポジトリ名.git
-git add .
-git commit -m “initial commit”
-git push origin master`
+`git init`
+`git remote add origin git@github.com:登録名/レポジトリ名.git`
+`git add .`
+`git commit -m “initial commit”`
+`git push origin master`
 
 テスト
