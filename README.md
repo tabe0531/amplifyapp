@@ -18,4 +18,13 @@ github に登録
 `git commit -m “initial commit”`  
 `git push origin master`  
 
-テスト
+プルリクするためにsshを作成して登録  
+`ssh-keygen`  
+作成したssh**公開鍵**をgithubに登録（settings -> ssh and gpg keys）  
+また、.sshフォルダの中にconfigを作成して以下を記載（記載しないとpermissionになるかも）  
+Host github.com  
+HostName github.com  
+IdentityFile ~/.ssh/作成したssh鍵名  
+User git  
+  
+
