@@ -17,3 +17,5 @@ git remote add origin git@github.com:登録名/レポジトリ名.git
 git add .
 git commit -m “initial commit”
 git push origin master
+
+テスト
