@@ -6,25 +6,23 @@ https://aws.amazon.com/jp/getting-started/hands-on/build-react-app-amplify-graph
 
 新しい React アプリケーションを作成する  
 GitHub リポジトリを初期化する  
-アプリを AWS Amplify でデプロイする	  
-コードの変更を実装してアプリを再デプロイする	  
-  
+アプリを AWS Amplify でデプロイする  
+コードの変更を実装してアプリを再デプロイする
+
 github に登録  
-新しいレポジトリの作成  
-  
+新しいレポジトリの作成
+
 `git init`  
 `git remote add origin git@github.com:登録名/レポジトリ名.git`  
 `git add .`  
 `git commit -m “initial commit”`  
-`git push origin master`  
+`git push origin master`
 
-プルリクするためにsshを作成して登録  
+プルリクするために ssh を作成して登録  
 `ssh-keygen`  
-作成したssh**公開鍵**をgithubに登録（settings -> ssh and gpg keys）  
-また、.sshフォルダの中にconfigを作成して以下を記載（記載しないとpermissionになるかも）  
+作成した ssh**公開鍵**を github に登録（settings -> ssh and gpg keys）  
+また、.ssh フォルダの中に config を作成して以下を記載（記載しないと permission になるかも）  
 Host github.com  
 HostName github.com  
-IdentityFile ~/.ssh/作成したssh鍵名  
-User git  
-  
-
+IdentityFile ~/.ssh/作成した ssh 鍵名  
+User git
