@@ -26,3 +26,13 @@ Host github.com
 HostName github.com  
 IdentityFile ~/.ssh/作成した ssh 鍵名  
 User git
+
+# プッシュ後の自動デプロイ
+
+初回デプロイに時間がかかるのと、プッシュ後の自動デプロイでも結構時間がかかる（ビルドが）  
+master ブランチを指定してデプロイしているので、develop とかでプッシュすると話は別そう
+
+# Amplify CLI をインストール
+
+アプリの AWS クラウドサービスを作成するため統合ツール  
+Amazon IAM を使用すると、AWS でユーザーとユーザーアクセス許可を管理できる
